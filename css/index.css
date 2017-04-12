@@ -1,0 +1,128 @@
+.all{
+	width: 100%;
+	height: 100vh;
+	/*position: fixed;*/
+	background: #F3F3F3;
+}
+.all>.lhq-nav{
+	width: 100%;
+	height: 65px;
+	background: #000000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.all>.lhq-nav>.lhq-nav-center{
+	width: 1200px;
+	position: relative;
+	height: 65px;
+	margin: 0 auto;
+}
+.all>.lhq-nav>.lhq-nav-center>.leftimg{
+	width: 63px;
+	height: 65px;
+	display: block;
+	float: left;
+	position: absolute;
+	left: 0;
+}
+.all>.lhq-nav>.lhq-nav-center>ul{
+	width: 770px;
+	height: 65px;
+	float: left;
+	/*background: #767656;*/
+	transition: all 0.5s;
+	position: absolute;
+	left:63px;
+}
+.all>.lhq-nav>.lhq-nav-center>ul>li{
+	float: left;
+	display: block;
+	width: 110px;
+	height: 65px;
+	cursor: pointer;
+}
+.all>.lhq-nav>.lhq-nav-center>ul>li:hover{
+	 background: -webkit-linear-gradient(left,#363739, #55575A);
+ 	 background: -o-linear-gradient(left,#363739, #55575A);
+ 	 background: -moz-linear-gradient(left,#363739, #55575A);
+ 	 background: linear-gradient(left,#363739, #55575A);
+}
+.all>.lhq-nav>.lhq-nav-center>ul>li>ul{
+	width: 110px;
+	height: 0px;
+	overflow: hidden;
+	transition: all .3s;
+}
+.all>.lhq-nav>.lhq-nav-center>ul>li>ul>a>li{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 16px;
+	cursor: pointer;
+	background:rgba(51,51,51,.5);
+}
+.all>.lhq-nav>.lhq-nav-center>ul>li>ul>a>li:hover{
+	background: rgba(0,0,0,0.85);
+	/*background:#000000;*/
+}
+.all>.lhq-nav>.lhq-nav-center>ul>li>a{
+	width: 110px;
+	height: 65px;
+	display: block;
+}
+.all>.lhq-nav>.lhq-nav-center>ul>li>a>span{
+	width: 110px;
+	height: 65px;
+	text-align: center;
+	display: block;
+	line-height: 65px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.all>.lhq-nav>.lhq-nav-center>img:nth-child(3){
+	width: 230px;
+	height: 65px;
+	float: left;
+	display: block;
+	position: absolute;
+	left: 850px;
+}
+.all>.lhq-nav>.lhq-nav-center>.lhq-weixin{
+	float: left;
+   	width: 80px;
+   	height: 100px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    z-index:9999;
+    right: 0;
+}
+.all>.lhq-nav>.lhq-nav-center>.lhq-weixin>img:nth-child(1){
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin: 5px 0 0 4px;
+}
+.all>.lhq-nav>.lhq-nav-center>.lhq-weixin>img:nth-child(2){
+	display: block;
+    margin: -1px 0px 0 25px;
+}
+.all>ul {
+  position: absolute;
+  width: 100%;
+  transition: all 1s;
+}
+.all>ul>li {
+  height: 100vh;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  font-size: 100px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100vh;
+}
