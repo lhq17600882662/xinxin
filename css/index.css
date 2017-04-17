@@ -1,7 +1,7 @@
 .all{
 	width: 100%;
 	height: 100vh;
-	/*position: fixed;*/
+	position: fixed;
 	background: #F3F3F3;
 }
 .all>.lhq-nav{
@@ -32,7 +32,7 @@
 	height: 65px;
 	float: left;
 	/*background: #767656;*/
-	transition: all 0.5s;
+	transition: all 0.3s;
 	position: absolute;
 	left:63px;
 }
@@ -121,8 +121,224 @@
   width: 100%;
   display: block;
   overflow: hidden;
-  font-size: 100px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 100vh;
+}
+
+.all>.caozuo{
+	width: 20px;
+	height: 210px;
+	position: fixed;
+	top:42vh;
+	right: 20px;
+}
+.all>.caozuo>i{
+	width: 10px;
+	font-style: normal;
+	height: 10px;
+	display: block;
+	text-align: center;
+	border-radius: 50%;
+	background: #FFFFFF;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-bottom:9px;
+}
+.lhqq>li:nth-child(1){
+	position: relative;
+}
+.lhqq>li:nth-child(1)>img:nth-child(2){
+	position: absolute;
+	bottom: 30px;
+	left: 47%;
+}
+.lhqq>li:nth-child(1)>img:nth-child(3){
+	position: absolute;
+	right: 100px;
+	top: 45%;
+	z-index: 10000;
+	cursor: pointer;
+}
+.lhqq>li:nth-child(1)>img:nth-child(4){
+	position: absolute;
+	left: 100px;
+	top: 45%;
+	z-index: 10000;
+	cursor: pointer;
+}
+.XTB{
+	width: 100px;
+	height: 15px;
+	position: absolute;
+	bottom: 30px;
+	left: 15%;
+}
+.XTB>span{
+	width: 10px;
+	height: 10px;
+	background: #FFFFFF;
+	float: left;
+	display: block;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-right: 10%;
+}
+.XTBfather{
+	width: 243px;
+	height: 100px;
+	position: absolute;
+	bottom: 50px;
+	left: 120px;
+}
+.XTBfather>img{
+	width: 243px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.lhqq>li:nth-child(1)>ul{
+	width: 100%;
+	height:100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.lhqq>li:nth-child(1)>ul>li{
+	height:100vh; 
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+.lhqq>li:nth-child(1)>ul>li>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.lhqq>li:nth-child(2){
+	position: relative;
+	background-color:#191D26;
+}
+.lhqq>li:nth-child(2)>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.lhqq>li:nth-child(2)>.conterTwo-left{
+	position:absolute;
+	width: 50%;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+}
+.conterTwo-leftBox{
+	width:100%;
+	height:100%;
+	float: right;
+	position: absolute;
+}
+.conterTwo-leftBox>img:nth-child(1){
+	position: absolute;
+	top:100px;
+	left: 120px;
+}
+.conterTwo-leftBox>p{
+	text-align: left;
+	font-weight: normal;
+}
+.conterTwo-leftBox>p:nth-child(2){
+	width: 70%;
+	height: 120px;
+	line-height: 40px;
+	position: absolute;
+	font-size: 14px;
+	color: #FFFFFF;
+	top:300px;
+	right: 100px;
+	word-break: break-all;
+	text-indent: 2em;
+}
+.conterTwo-leftBox>p:nth-child(3){
+	width: 70%;
+	height: 120px;
+	position: absolute;
+	line-height: 40px;
+	font-size: 14px;
+	color: #FFFFFF;
+	top: 420px;
+	right: 100px;
+	text-indent: 2em;
+	word-break: break-all;
+}
+.lhqq>li:nth-child(2)>.conterTwo-right{
+	position:absolute;
+	width: 50%;
+	height: 100%;
+	right: 0;
+	overflow: hidden;
+	background: #333333;
+}
+.lhqq>li:nth-child(2)>.conterTwo-right>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.lhqq>li:nth-child(2)>.lhq-hhh{
+	position: absolute;
+    left: 48%;
+    top: 48%;
+    width: 57px;
+    height: 57px;
+    display: block;
+    z-index: 99;
+}
+.lhqq>li:nth-child(3){
+    background: url(../img/l1.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.lhqq>li:nth-child(3)>.conterThree{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.lhqq>li:nth-child(3)>.conterThree>img:nth-child(1){
+	margin-top:70px;
+}
+.lhqq>li:nth-child(3)>.conterThree>h3:nth-child(2){
+	color: #FFFFFF;
+	text-indent: 1em;
+	font-size: 16px;
+}
+.lhqq>li:nth-child(3)>.conterThree>img:nth-child(3){
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.lhqq>li:nth-child(3)>.conterThree>h6:nth-child(4){
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 35%;
+	letter-spacing: 1px;
+}
+.lhqq>li:nth-child(3)>.conterThree>h3:nth-child(5){
+	color: #FFFFFF;
+	text-indent: 1em;
+	font-size: 16px;
+	margin-top: 25px;
+}
+@keyframes topbottom{
+	0%{
+		transform: translateY(-15px);
+	}50%{
+		transform: translateY(15px);
+	}100%{
+		transform: translateY(-15px);
+	}
+}
+.DJ{
+	animation: topbottom 2s infinite 0s both;
 }
