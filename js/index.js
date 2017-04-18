@@ -134,8 +134,8 @@ $(function(){
 	})
 	
 	function tab(){
-		$('.LBul li').eq(index).fadeIn(600).siblings().fadeOut(600);
-		$('.XTBfather img').eq(index).fadeIn(600).siblings().fadeOut(600);
+		$('.LBul li').eq(index).fadeIn(300).siblings().fadeOut(300);
+		$('.XTBfather img').eq(index).fadeIn(300).siblings().fadeOut(300);
 		$('.XTB span').eq(index).css('background','#55575A').siblings().css('background','#FFFFFF');
 	}
 	$('.LBul').hover(function(){
